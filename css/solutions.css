@@ -114,7 +114,7 @@ input:focus, select:focus {
     opacity: 0.5;
 }
 
-.quote-box > p::after {
+.quote-box p::after {
     content: "\201D";
     display: inline-block;
     position: absolute;
@@ -123,4 +123,3 @@ input:focus, select:focus {
     transform: scale(3);
     opacity: 0.5;
 }
-/* Ricorda: \201C open" \201D closed" */
