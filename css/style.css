@@ -284,3 +284,15 @@ body {
     border-left: 6px solid orange;
 }
 
+/* Terzo obiettivo: cambiare il background del primo e dell'ultimo div contenuti nel div contenuto nel nulla cosmico */
+
+.section-title + div > .exercise-item:first-child {
+	background: #F0FFF4;
+	border-left: 6px solid lightgreen;
+}
+
+.section-title + div > .exercise-item:last-child {
+	background: #F0FFF4;
+	border-left: 6px solid lightgreen;
+}
+
