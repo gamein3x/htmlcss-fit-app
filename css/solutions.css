@@ -72,4 +72,10 @@ input:focus, select:focus {
     transition: 0.2s;
 
 }
+
+/* Decimo obiettivo: aggiungere il 65% alla barra allineato a destra */
+
+.progress-fill::after {
+    content: "65%";
+}
 /* Ricorda: \201C open" \201D closed" */
