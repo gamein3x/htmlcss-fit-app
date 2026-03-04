@@ -275,3 +275,12 @@ body {
 .stats-grid:last-child * {
 	color:white;
 }
+
+/* Secondo obiettivo: cambiare il colore del secondo workout-plan 
+	- volevo farlo in modo diverso; non ce l'ho fatta :( - */
+
+.workout-plan:nth-child(3) {
+    background: #FFF8BA;
+    border-left: 6px solid orange;
+}
+
