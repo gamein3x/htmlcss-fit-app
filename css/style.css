@@ -265,34 +265,4 @@ body {
 }
 
 
-/* Primo obiettivo: prendere il colore background dell'header e metterlo nel background dell'ultimo 
-	figlio di .stats-container (stats-grid) */
-
-.stats-grid:last-child {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-}
-
-.stats-grid:last-child * {
-	color:white;
-}
-
-/* Secondo obiettivo: cambiare il colore del secondo workout-plan 
-	- volevo farlo in modo diverso; non ce l'ho fatta :( - */
-
-.workout-plan:nth-child(3) {
-    background: #FFF8BA;
-    border-left: 6px solid orange;
-}
-
-/* Terzo obiettivo: cambiare il background del primo e dell'ultimo div contenuti nel div contenuto nel nulla cosmico */
-
-.section-title + div > .exercise-item:first-child {
-	background: #F0FFF4;
-	border-left: 6px solid lightgreen;
-}
-
-.section-title + div > .exercise-item:last-child {
-	background: #F0FFF4;
-	border-left: 6px solid lightgreen;
-}
 
