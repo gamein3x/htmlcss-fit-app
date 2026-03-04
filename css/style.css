@@ -263,3 +263,15 @@ body {
 .bottom-spacer {
 	height: 80px;
 }
+
+
+/* Primo obiettivo: prendere il colore background dell'header e metterlo nel background dell'ultimo 
+	figlio di .stats-container (stats-grid) */
+
+.stats-grid:last-child {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.stats-grid:last-child * {
+	color:white;
+}
