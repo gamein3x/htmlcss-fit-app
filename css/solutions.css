@@ -55,8 +55,9 @@
 
 /* Settimo-ottavo obiettivo: mettere bordi blu e ombre a input e select quando in focus */
 
-input, select:focus {
-    border: 2px solid blue;
-
+input:focus, select:focus {
+    outline: none;
+    border: 2px solid grey;
 }
+
 /* Ricorda: \201C open" \201D closed" */
