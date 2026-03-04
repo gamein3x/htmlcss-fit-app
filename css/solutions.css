@@ -95,4 +95,10 @@ input:focus, select:focus {
 .nav-item:active {
     background: #3A5169;
 }
+
+/* Dodicesimo obiettivo: link home deve apparire sempre attivo */
+
+.nav-item:first-child {
+    background: #3A5169;
+}
 /* Ricorda: \201C open" \201D closed" */
