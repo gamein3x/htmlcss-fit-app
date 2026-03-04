@@ -38,12 +38,19 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
-/* Primo e sesto obiettivo: aggiungere emoji alla prima card e all'inizio del nome degli esercizi in posizione pari (2° e 4°) */
+/* Primo obiettivo: aggiungere emoji alla prima card */
 
 .stats-grid:first-child::before {
     content: "🔥";
     display: block;
     transform: scale(1.5);
+}
+
+/* Sesto obiettivo: aggiungere emoji all'inizio del nome degli esercizi in posizione pari (2° e 4°) 
+    - ho chiaramente esagerato nella specificità nel quinto obiettivo*/
+
+.exercise-item:nth-child(even):before {
+    content: "⚡";
 }
 
 /* Ricorda: \201C open" \201D closed" */
