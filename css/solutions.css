@@ -101,4 +101,26 @@ input:focus, select:focus {
 .nav-item:first-child {
     background: #3A5169;
 }
+
+/* Tredicesimo obiettivo: aggiungere virgolette alla citazione con opacità ridotta */
+
+.quote-box p::before {
+    content: "\201C";
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    transform: scale(3);
+    opacity: 0.5;
+}
+
+.quote-box > p::after {
+    content: "\201D";
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    right: 15px;
+    transform: scale(3);
+    opacity: 0.5;
+}
 /* Ricorda: \201C open" \201D closed" */
