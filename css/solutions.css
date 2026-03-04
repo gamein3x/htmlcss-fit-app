@@ -19,7 +19,7 @@
     border-left: 5px solid orange;
 }
 
-/* Quinto obiettivo: cambiare il background del primo e dell'ultimo div contenuti nel div contenuto nel nulla cosmico */
+/* Quinto obiettivo: bordi e background verdi per il primo e ultimo esercizio */
 
 .section-title + div > .exercise-item:first-child {
 	background: #F0FFF4;
@@ -31,4 +31,9 @@
 	border-left: 5px solid lightgreen;
 }
 
-/* Quarto obiettivo: effetto hover sulle stat-cards */
+/* Terzo obiettivo: effetto hover sulle stat-cards */
+
+.stats-container > div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
