@@ -73,9 +73,26 @@ input:focus, select:focus {
 
 }
 
-/* Decimo obiettivo: aggiungere il 65% alla barra allineato a destra */
+/* Decimo obiettivo: aggiungere il 65% alla barra allineato a destra ù
+    -domanda: perchè non riesco a farlo apparire davanti il fill, anche usando z-index?*/
 
 .progress-fill::after {
     content: "65%";
+    position: absolute;
+    top: -70%;
+    right: 5px;
+    transform: scale(0.7);
+    color: white;
+}
+
+/* Undicesimo obiettivo: aggiungere effetto hover sui link di navigazione (sfondo più scuro e testo blu) */
+
+.nav-item:hover {
+    background:#202D3B;
+    color: blue;
+}
+
+.nav-item:active {
+    background: #3A5169;
 }
 /* Ricorda: \201C open" \201D closed" */
