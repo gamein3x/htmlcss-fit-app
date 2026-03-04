@@ -1,4 +1,6 @@
-/* Primo obiettivo: prendere il colore background dell'header e metterlo nel background dell'ultimo 
+/** NOTA: Gli obiettivi sono scritti nell'ordine cronologico in cui li ho effettuati, nominati con l'ordine nel foglio README **/
+
+/* Secondo obiettivo: prendere il colore background dell'header per cambiare lo sfondo della terza carta statistiche 
 	figlio di .stats-container (stats-grid) */
 
 .stats-grid:last-child {
@@ -9,24 +11,24 @@
 	color:white;
 }
 
-/* Secondo obiettivo: cambiare il colore del secondo workout-plan 
+/* Quarto obiettivo: cambiare il colore del secondo workout-plan 
 	- volevo farlo in modo diverso; non ce l'ho fatta :( - */
 
 .workout-plan:nth-child(3) {
     background: #FFF8BA;
-    border-left: 6px solid orange;
+    border-left: 5px solid orange;
 }
 
-/* Terzo obiettivo: cambiare il background del primo e dell'ultimo div contenuti nel div contenuto nel nulla cosmico */
+/* Quinto obiettivo: cambiare il background del primo e dell'ultimo div contenuti nel div contenuto nel nulla cosmico */
 
 .section-title + div > .exercise-item:first-child {
 	background: #F0FFF4;
-	border-left: 6px solid lightgreen;
+	border-left: 5px solid lightgreen;
 }
 
 .section-title + div > .exercise-item:last-child {
 	background: #F0FFF4;
-	border-left: 6px solid lightgreen;
+	border-left: 5px solid lightgreen;
 }
 
-/* Quarto obiettivo: aggiungere "65%" vicino alla barra di progresso */
+/* Quarto obiettivo: effetto hover sulle stat-cards */
