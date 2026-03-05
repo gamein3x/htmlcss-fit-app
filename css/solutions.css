@@ -123,3 +123,9 @@ input:focus, select:focus {
     transform: scale(3);
     opacity: 0.5;
 }
+
+/** COMMENTI POST-LEZIONE **/
+
+/*  4: avrei dovuto usare nth-of-type per farlo come volevo; 
+    13: okay, avrei dovuto usare '"', mi chiedevo perchè fosse così difficile per gli altri (non
+        ho usato nessuna AI per la soluzione, ho solo avuto fortuna, giuro);
